@@ -1,0 +1,142 @@
+body{
+  background-color: #2C3A47;
+  max-width: 350px;
+  max-height: 250px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+}
+.title{
+  color: cornsilk;
+  font-family: manrope;
+  font-size: 13px;
+  margin: -5px 0 0 103px;
+}
+.help1{
+  color: cornsilk;
+  font-family: manrope;
+  font-size: 13px;
+  margin: -47px 0px 59px 111px;
+}
+.image{
+  position: absolute;
+  top: 10px;
+  left: 310px;
+}
+.image img {
+  width: 12px;
+  padding: 5px 5px;
+  border: 2px solid #ca9800;
+  border-radius: 20px;
+  background:cornsilk;
+ }
+.image:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: 800ms;
+}
+.image:active{
+    transform: scale(1.1);
+}
+.but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 5px 0;
+}
+.but button {
+  margin: 0 8px 0 8px;
+  width: 118px;
+  height: 35px;
+  font-family:manrope;
+  color: cornsilk;
+  font-size: 15px;
+  border: 2px solid #ca9800;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: inset -1px 1px 1px rgb(215, 215, 222),
+              inset 2px 2px 3px rgba(40, 41, 61, 1.0);
+  transition: 500ms;
+}
+.but button:hover {
+  background-color: cornsilk;
+  color: black;
+  /* transform: scale(1.05);
+  box-shadow: 0px 5px 10px 0 #888888;
+  transition: 800ms;
+  cursor: pointer; */
+}
+.but button:active {
+  background-color: #CAD3C8;
+  color: black;
+  box-shadow: inset -1px -1px -1px -1px rgba(255, 255, 255, .6),
+                inset -2px -2px -3px rgba(0, 0, 0, .6);
+  scale: (1.03);
+  transform: scale(0.98);
+  /* transition: 800ms; */
+  cursor: pointer;
+}
+.text{
+  padding: 5px 8px 0 0px;
+}
+.text1{
+  padding: 5px 8px 0 0px;
+}
+textarea {
+  width: 145px;
+  height:140px;
+  border: solid 2px #ca9800;
+  background: none;
+  border-radius: 10px;
+  font-family: manrope;
+  font-size: 12px;
+  color: cornsilk;
+  box-shadow: 5px 5px 5px 5px rgba(40, 41, 61, 1.0);
+}
+::placeholder{
+  color:cornsilk;
+  font-size: 14px;
+  font-family:manrope;
+  padding: 5px 5px;
+}
+.modal {
+  font-family: manrope;
+  background-color:#2C3A47;
+  border: 2px solid #ca9800;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  width: 200px;
+  height: 60px;
+  padding: 8px 6px;
+  border-radius: 15px;
+}
+.modal a {
+  font-family: manrope;
+  color: cornsilk;
+}
+.modal p {
+  color:cornsilk;
+}
+.modalopen {
+  display: none;
+}
+.help{
+  display: none;
+  padding: 10px 14px;
+}
+.contact {
+  font-size: 16px;
+  font-family: manrope;
+  color: #ffffff;
+  margin-left: -5px;
+  margin-top: 34px;
+}
+.con {
+  margin: -25px 0 0 0;
+  font-size: 16px;
+  font-family: manrope;
+  color: yellow;
+}

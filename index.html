@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+      <script src="main.js"></script>
+    <!-- <script>
+         // Initialize Firebase
+      firebase.initializeApp({
+        apiKey: "AIzaSyAlsb4CKeFYmpkU8E-xgNFq2EU5QkqeNPw",
+        authDomain: "test1-ded3e.firebaseapp.com",
+        projectId: "test1-ded3e",
+        storageBucket: "test1-ded3e.appspot.com",
+        messagingSenderId: "956620349917",
+        appId: "1:956620349917:web:676275a80eee5f06961634",
+        measurementId: "G-QNPXQV114L"
+      });
+
+      // Get the Analytics instance
+      const analytics = firebase.analytics()
+      
+      analytics.logEvent('select_content', {
+        content_type: 'image',
+        content_id: 'P12453',
+        items: [{ name: 'Kittens' }]
+      });
+    </script> -->
+</head>
+<body>
+  <div class="image">
+    <img src="information.png" alt="">
+  </div>
+  <div class="title">
+    <h2>Book Check</h2>
+  </div>
+    <div class="form">
+      <div class="text" id="clear">
+        <textarea style="resize: none;"   placeholder="Paste PDF content here"></textarea>
+    </div>
+    <div class="text1" id="clear">
+      <textarea style="resize: none;" placeholder="Paste Excel content here"></textarea>
+    </div>
+    </div>
+    <div class="but">
+      <button class="bt">Check</button>
+      <button class="bt" type="reset">Clear</button>
+    </div>
+    <div class="help">
+      <div class="help1">
+        <h2>Contact</h2>
+      </div>
+      <div class="con">
+          <p>For any information or issues in the Book Check tool.Please feel free to contact</p>
+      </div>
+      <div class="contact">
+          <ul style="list-style-type:none;">
+              <li>Thuyavan Tamilarasan(<font color= yellow>tamilt</font>)</li>
+              <li>Simon SanthoshKumar(<font color= yellow>marias3</font>)</li>
+          </ul> 
+      </div>
+    </div>
+</body>
+<div id="ex1" class="modal">
+  <p>Checked! Paste it in Excel</p>
+</div>
+<!-- Link to open the modal -->
+<p class="modalopen"><a href="#ex1" rel="modal:open">Open Modal</a></p>
+    </div>
+<!-- <script>
+  const tx = document.getElementsByTagName("textarea");
+for (let i = 0; i < tx.length; i++) {
+tx[i].setAttribute("style", "height:" + (tx[i].scrollHeight) + "px;overflow-y:hidden;");
+tx[i].addEventListener("input", OnInput, false);
+}
+
+function OnInput() {
+this.style.height = 0;
+this.style.height = (this.scrollHeight) + "px";
+}
+</script> -->
+</html>
